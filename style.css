@@ -1,0 +1,144 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.screen{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(9, 204, 58);   
+    top: 100px; 
+    left: 700px;
+    animation: move 1s infinite alternate;
+
+}
+
+.line1{
+    width: 500px;
+    height: 20px;
+    background-color: rgb(238, 11, 22);   
+    top: 300px; 
+    left: 700px;acadvcs
+}
+
+.line2{
+    width: 500px;
+    height: 20px;
+    background-color: rgb(238, 11, 22);   
+    top: 340px; 
+    left: 700px;
+}
+
+.line3{
+    width: 500px;
+    height: 20px;
+    background-color: rgb(238, 11, 22);   
+    top: 380px; 
+    left: 700px;
+
+}
+
+.buttonrow-1{
+    width: 100px;
+    height: 100px;
+    background-color: darkorchid;
+    top: 100px; 
+    left: 100px;
+    transform: skew(20deg) rotate(45deg);
+}
+
+.buttonrow-2:hover{
+
+    transform: rotate(90DEG);
+
+}
+
+.buttonrow-2{
+    width: 100px;
+    height: 100px;
+    background-color: darkorchid;
+    top: 100px; 
+    left: 250px;
+}
+
+buttonrow-3:hover{
+
+    transform: rotation(180deg);
+
+}
+.buttonrow-3{
+    width: 100px;
+    height: 100px;
+    background-color: darkorchid;
+    top: 100px; 
+    left: 400px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 53, 204);
+    top: 300px; 
+    left: 100px;
+    border-radius: 100px;
+}
+
+.circle2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 53, 204);
+    top: 300px; 
+    left: 250px;
+    border-radius: 100px;
+    animation: move1 1s infinite;
+}
+.circle3:hover{
+
+    transform: scale(2);
+
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 53, 204);
+    top: 300px; 
+    left: 400px;
+    border-radius: 100px;
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+    from{
+        left: 0;
+    } to {
+        left: 1000px;
+
+    }
+
+}
+
+@keyframes move1 {
+    from{
+        left: 0;
+    } to {
+        lefttom: 1000px;
+
+    }
+
+}
+
+@keyframes blr {
+    from{
+        filter: blur(1px);
+    } to {
+        filter: blur(20px);
+    }
+
+}
